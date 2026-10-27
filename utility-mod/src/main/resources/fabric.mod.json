@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "clearsight",
+  "version": "${version}",
+  "name": "ClearSight Utilities",
+  "description": "Client-side visual utilities: hide fire, remove hurt camera shake, and resize totem visuals.",
+  "authors": ["sinrok"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.sinrok.clearsight.ClearSightClient"
+    ]
+  },
+  "mixins": [
+    "clearsight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
